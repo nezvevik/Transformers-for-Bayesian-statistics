@@ -1,0 +1,16 @@
+name: gp
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - torchaudio
+  - gpytorch
+  - pip
+  - pip:
+      - tqdm
+      - numpy
+      - matplotlib
