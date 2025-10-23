@@ -1,5 +1,10 @@
 # Transformers-for-Bayesian-statistics
 
+## TODO 23.10. Write the basic theory and equations:
+- What is a stochastic process (elementary properties of a process)
+- define GP as a special case - mean, covariance, kernel...
+- mention what the marginal likelihood is and why it is useful for parameter estimation
+
 ## TODO 17.10: toy problem for GP
 
 1. manual GP: learn how it works under the hood:
