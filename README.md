@@ -1,5 +1,14 @@
 # Transformers-for-Bayesian-statistics
 
+## TODO 9.11. Start a project report 
+- create a project report on overleaf
+- write a basic theory as a first chapter.
+- use manual (or toolbox) code to illustrate the theory:
+   - visualize difference in kernel functions (Mattern, BRF)
+   - sensitivity to hyperparamenets
+   - optimize hyperparameters using marginal likelihood
+
+
 ## TODO 23.10. Write the basic theory and equations:
 - What is a stochastic process (elementary properties of a process)
 - define GP as a special case - mean, covariance, kernel...
