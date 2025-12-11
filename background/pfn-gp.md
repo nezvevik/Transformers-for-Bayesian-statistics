@@ -1,7 +1,7 @@
 
 # Relation between PFN and GP
 
-The PFN is supposed to approximate the GP inference. Let's decompose both tools and math the similar mechanism.
+The PFN is supposed to approximate the GP inference. Let's decompose both tools and match similar mechanisms.
 
 ### 1. The Gaussian Process Perspective
 To understand the approximation, we look at how a GP predicts the value for a new query point $x_*$ given a set of support points (context) $X = \{x_1, \dots, x_n\}$ and observed values $y$.
@@ -83,5 +83,3 @@ Recent research (e.g., *Transformers Can Do Bayesian Inference* by Müller et al
 The "mathematical reason" is that **Attention is a learnable Kernel Smoother.**
 
 When you train a PFN on a GP prior, you are forcing the Transformer to learn an embedding space $\phi(x)$ such that the dot product $\langle \phi(x), \phi(x') \rangle$ recovers the specific kernel (e.g., RBF, Matern) used to generate the data, and the multiple layers learn to handle the noise and correlation between points (the inversion).
-
-**Would you like to see a Python code snippet demonstrating how to implement a simple "Attention-based" Kernel Regressor to visualize this similarity?**
