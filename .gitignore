@@ -1,1 +1,4 @@
 *.png
+__pycache__/
+data/
+bayesan_opt_tmp/
